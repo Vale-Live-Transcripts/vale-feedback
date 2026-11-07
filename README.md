@@ -17,7 +17,7 @@ At one fixed address:
 **`https://vale-feedback.vercel.app/api/feedback`**
 
 - the app, from Settings ▸ Send Feedback and, on the Mac, Help ▸ Send
-  Feedback (planned: `Vale/Feedback/FeedbackClient.swift` in
+  Feedback… (`Vale/Feedback/FeedbackClient.swift` in
   `Vale-Live-Transcripts/Vale`; the app is in development),
 - the website's support page (`support.html` in
   `Vale-Live-Transcripts/vale-webpage`), from a browser.

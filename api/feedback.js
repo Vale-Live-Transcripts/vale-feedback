@@ -2,7 +2,7 @@
 // GitHub account and the app carries no secret: the token lives only in this
 // function's environment.
 //
-// Called by the Vale! app (planned: `Vale/Feedback/FeedbackClient.swift` in
+// Called by the Vale! app (`Vale/Feedback/FeedbackClient.swift` in
 // Vale-Live-Transcripts/Vale) and by the website's support page
 // (Vale-Live-Transcripts/vale-webpage). The request and response
 // shapes below are a contract with apps in users' hands; do not rename a key
