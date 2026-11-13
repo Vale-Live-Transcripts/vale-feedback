@@ -24,7 +24,10 @@
 // `isRateLimited`).
 
 const DEFAULT_REPO = 'Vale-Live-Transcripts/Vale';
-const ALLOWED_ORIGINS = ['https://vale-live-transcripts.github.io'];
+const ALLOWED_ORIGINS = [
+  'https://vale.mateoarenas.dev',
+  'https://vale-live-transcripts.github.io',
+];
 
 // Caps on what reaches the issue. Longer input is cut, not rejected, so a
 // long report still arrives.

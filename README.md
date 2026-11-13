@@ -48,9 +48,10 @@ Any other key is ignored, and so is a key whose value is not a string. An
 cannot notify anyone on GitHub; an `@` inside a word, as in an email address,
 is left alone.
 
-A browser request from an origin in `ALLOWED_ORIGINS` (today only
-`https://vale-live-transcripts.github.io`, the website) gets CORS headers,
-and its `OPTIONS` preflight gets a `204`. Every other origin, and the app,
+A browser request from an origin in `ALLOWED_ORIGINS` (the website,
+`https://vale.mateoarenas.dev`, and its old address,
+`https://vale-live-transcripts.github.io`, which redirects there) gets CORS
+headers, and its `OPTIONS` preflight gets a `204`. Every other origin, and the app,
 which sends none, get neither, so their preflight falls through to the `405`
 below.
 
